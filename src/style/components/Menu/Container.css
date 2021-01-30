@@ -1,0 +1,29 @@
+.container-menu{
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    margin:auto;
+    max-width: 1020px;
+    min-height: 100vh;
+    gap: 22px;
+    grid-template-columns: 22% 55% 30%;
+    grid-template-areas: 
+        "LeftBar MiddleBar RigthBar"
+        "LeftBar MiddleBar RigthBar"
+        "LeftBar MiddleBar RigthBar"
+    ;
+}
+.LeftBar{
+    grid-area: LeftBar;
+    border-radius: 10px;
+}
+.MiddleBar{
+    grid-area: MiddleBar;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.RigthBar{
+    grid-area: RigthBar;
+    padding: 5px 10px;
+    border-radius: 10px;
+}

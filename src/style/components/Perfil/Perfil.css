@@ -1,0 +1,191 @@
+.container-perfil{
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    margin:auto;
+    max-width: 1020px;
+    min-height: 100vh;
+    gap: 32px;
+    grid-template-columns:  75% 30%;
+    grid-template-areas: 
+        "perfil-1 perfil-2"
+    ;
+    z-index: 22222;
+}
+.perfil-1{
+    grid-area: perfil-1;
+    z-index: 22222;
+}
+.perfil-2{
+    grid-area: perfil-2;
+    z-index: 22222;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.perfil-2 .Perfil-2-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a{
+    background: var(--white);
+    display: flex;
+    width: 100%;
+    border: 1px solid var(--black-a15);
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .perfil-line:nth-child(1){
+    border-bottom: 1px solid var(--black-a15);
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .perfil-line{
+    display: flex;
+    width: 100%;
+    padding: 15px 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .perfil-line h4{
+    color: var(--black-a65);
+}
+
+.RigthBar .RigthBar-container{
+    display: flex;
+    padding: 10px 10px ;
+    border: 1px solid var(--color-background-faint-active);
+    background: var(--white);
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 15px;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a h1{
+    font-size: 1rem;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.live{
+    object-fit: cover;
+    object-position: center;
+}
+.RigthBar .RigthBar-container h2{
+    font-size: 1.1rem;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header{
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header .box{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.perfil-2 .Perfil-2-container .perfil-2-ar:nth-child(2) .rigth-contai .rigth header .box{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5px;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header .box .pic{
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header:nth-child(2) button{
+    transform: translateX(-15px);
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header:nth-child(2) .box{
+    width: 80%;
+    gap: 2px;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header:nth-child(2){
+    gap: 0px;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header:nth-child(2) .box .pic{
+    width: 50px;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header .box .textos{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header .box .textos span{
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: .9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    display: inline-block;
+    color: var(--color-text);
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header .box .textos p{
+    white-space: nowrap;
+    font-size: .75rem;
+    width: 90%;
+    overflow: hidden;
+    padding-right: 10px;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    display: inline-block;
+    color: var(--color-text-low-emphasis);
+}
+.perfil-2 .Perfil-2-container .perfil-2-a:nth-child(2) .rigth-contai .rigth header .box .textos span{
+    font-size: 1rem;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a:nth-child(2) .rigth-contai .rigth header .box .textos p{
+    font-size: .9rem;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header .box .textos .locate{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header button{
+    outline: none;
+    background: none;
+    gap: 4px;
+    border: 2px solid #0a66c2;
+    color: #0a66c2 ;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    transition: all 1s ease-in-out;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header button svg{
+    fill:#0a66c2 ;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth header button:hover{
+    border: 2px solid #0a66c2;
+    background:#d0e8ff;
+}
+
+
+:root{
+    --white:white;
+    --black-a75: rgba(0,0,0,0.75);
+    --black-a65: rgba(0,0,0,0.65);
+    --black-a45: rgba(0,0,0,0.45);
+    --black-a15: rgba(0,0,0,0.15);
+    --black: #000;
+}

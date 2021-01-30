@@ -1,0 +1,110 @@
+
+.RigthBar .RigthBar-container .live{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.RigthBar .RigthBar-container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-self: stretch;
+    align-items: center;
+}
+.RigthBar .RigthBar-container ul li{
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    justify-content: center;
+}
+.RigthBar .RigthBar-container ul li a{
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--black-a90);
+}
+.Left div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Left div ul{
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-self: stretch;
+    align-items: center;
+}
+.Left div ul li{
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    justify-content: center;
+}
+.Left div ul li a{
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--black-a90);
+}
+
+.Rigth{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+    background: var(--white);
+    align-items: center;
+    justify-content: center;
+}
+.Rigth .RigthBar-container{
+    background: var(--white);
+}
+.Rigth .RigthBar-container .live{
+    width: 100%;
+    object-fit: cover;
+    background: var(--black);
+    object-position: center;
+}
+.Rigth .RigthBar-container ul{
+    margin: 5px 0;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    gap: 12px;
+    align-self: stretch;
+    align-items: center;
+}
+.Rigth .RigthBar-container ul li{
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    justify-content: center;
+}
+.Rigth .RigthBar-container ul li a{
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--black-a90);
+}
+
+:root{
+    --white:white;
+    --black-a90: rgba(0,0,0,0.90);
+    --black-a65: rgba(0,0,0,0.65);
+    --black-a45: rgba(0,0,0,0.45);
+    --black-a15: rgba(0,0,0,0.15);
+    --black: #000;
+}

@@ -1,0 +1,179 @@
+.container-Notii{
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    margin:auto;
+    max-width: 1020px;
+    min-height: 100vh;
+    gap: 22px;
+    grid-template-columns: 22% 55% 30%;
+    grid-template-areas: 
+        "lado-1 lado-2 lado-3"
+        "d v a"
+        "d v a"
+    ;
+}
+.lado-1{
+    grid-area: lado-1;
+}
+.lado-2{
+    grid-area: lado-2;
+    background: var(--white);
+    border-radius: 10px;
+}
+.lado-3{
+    grid-area: lado-3;
+    padding: 10px 10px;
+}
+
+.lado-1 section{
+    display: flex;
+    border-top: 1px solid  var(--black-a08);
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 10px;
+    background: var(--white);
+}
+.lado-1 section .da{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 16px;
+    text-align: center;
+    border-top: 1px solid  var(--black-a08);
+}
+.lado-1 section .da h1{
+    color: var(--black-a09);
+}
+.lado-1 section .da p{
+    color: var(--black-a65);
+    text-align: center;
+    font-weight: normal;
+}
+.lado-1 section div{
+    background-color: #f9fafb;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    border-top: 1px solid  var(--black-a08);
+}
+.lado-1 section div small{
+    color: var(--black-a65);
+    font-size: .9rem;
+}
+.lado-1 section div span{
+    font-size: 1.1rem;
+    font-weight: 900;
+    color:#0a66c2;
+}
+
+
+.lado-2{
+    display: flex;
+    flex-direction: column;
+}
+.lado-2 section:hover{
+    background: var(--black-hover);
+}
+.lado-2 section{
+    align-self: stretch;
+    display: flex;
+    transition: background .5s ease-in-out;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+    padding: 16px;
+    border-top: 1px solid var(--black-a15);
+    border-bottom: 1px solid var(--black-a15);
+}
+
+.lado-2 section:nth-child(1){
+    border-top: 1px solid var(--black-a15);
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0px;
+}
+.lado-2 section .img{
+    position: relative;
+}
+.lado-2 section .img .break{
+    position: absolute;
+    background: var(--white);
+    border-radius: 50px;
+    width: 14px;
+    height: 14px;
+    padding: 1px;
+    bottom: 0;
+    transform: translate(-10px);
+    right: 0;
+}
+.lado-2 section .img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.lado-2 section main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.lado-2 section main span{
+    color: var(--black-a65);
+}
+.lado-2 section .box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 15px;
+    width: 100%;
+    align-items: flex-start;
+}
+.lado-2 section .box button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    background: var(--white);
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid #0a66c2;
+    transition-property: background,box-shadow,color;
+    vertical-align: middle;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: 167ms;
+    transition: background .7s ease-in-out, border .4s ease-in-out,color .5s ease-in-out;
+    color: #0a66c2;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lado-2 section .box button:hover{
+    border: 2px solid #0a66c2;
+    background:#d0e8ff;
+}
+.lado-2 section .box p{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: .9rem;
+}
+.lado-2 section .box h2{
+    font-size: .9rem;
+}
+
+
+:root{
+    --white:white;
+    --black-a75: rgba(0,0,0,0.75);
+    --black-a65: rgba(0,0,0,0.65);
+    --black-a08: rgba(0,0,0,0.8);
+    --black-a09: rgba(0,0,0,0.9);
+    --black-hover: rgba(0,0,0,0.1);
+    --black-a15: rgba(0,0,0,0.15);
+    --black: #000;
+}

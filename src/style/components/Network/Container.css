@@ -1,0 +1,24 @@
+.container-menus{
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    margin:auto;
+    max-width: 1020px;
+    min-height: 100vh;
+    gap: 32px;
+    grid-template-columns: 32% 68% ;
+    grid-template-areas: 
+        "Left Middle Middle"
+        "Left Middle Middle"
+        "Left Middle Middle"
+    ;
+}
+.Left{
+    grid-area: Left;
+    border-radius: 10px;
+}
+.Middle{
+    grid-area: Middle;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
