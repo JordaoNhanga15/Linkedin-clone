@@ -36,6 +36,7 @@
 }
 .perfil-1 .perfil-1-a .sectio-perfil header h2{
     font-size: 1.2rem;
+    color: var(--black-a65);
 }
 .perfil-1 .perfil-1-a:nth-child(1) .sectio-perfil header{
     transform: translateY(-40px);
@@ -149,11 +150,11 @@
     transition: all .4s ease-in;
 }
 .perfil-1 .perfil-1-a .sectio-perfil .body-perfil .nome .nome- div li:nth-child(1){
-    background: var(--black-a65);
+    background: var(--black);
     color: var(--white);
 }
 .perfil-1 .perfil-1-a .sectio-perfil .body-perfil .nome .nome- div li:hover{
-    background: var(--black-a65);
+    background: var(--black);
     color: var(--white);
 }
 
@@ -180,6 +181,11 @@
 }
 .perfil-1 .perfil-1-a .sectio-perfil .body-perfil .grids::-webkit-scrollbar{height: 0;}
 
+.perfil-1 .perfil-1-a .sectio-perfil header span{
+    color: var(--black-a65);
+}
+
+
 .perfil-1 .perfil-1-a .sectio-perfil .body-perfil article{
     display: flex;
     flex-direction: column;
@@ -198,6 +204,7 @@
 .perfil-1 .perfil-1-a .sectio-perfil .body-perfil article .span{
     padding: 10px 10px;
     font-size: .8rem;
+    color: var(--color-text);
 }
 .perfil-1 .perfil-1-a .sectio-perfil .body-perfil footer{
     display: flex;
@@ -210,6 +217,7 @@
 }
 .perfil-1 .perfil-1-a .sectio-perfil .body-perfil footer .loca span{
     font-size: .7rem;
+    color: var(--black-a65);
 }
 .perfil-1 .perfil-1-a .sectio-perfil .body-perfil footer .loca .po{
     width: 3px;

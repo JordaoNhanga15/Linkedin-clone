@@ -15,6 +15,7 @@
 }
 .Middle .Middle-1 .text h3{
     font-weight: normal;
+    color: var(--color-text);
 }
 .Middle .Middle-1 .text small{
     color: var(--black-a65);
@@ -38,6 +39,7 @@
 .events-container .events{
     width: 250px;
     border: 1px solid var(--black-a15);
+    background: var(--back-events);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -150,4 +152,5 @@
     --black-a45: rgba(0,0,0,0.45);
     --black-a15: rgba(0,0,0,0.15);
     --black: #000;
+    --back-events:#fff;
 }

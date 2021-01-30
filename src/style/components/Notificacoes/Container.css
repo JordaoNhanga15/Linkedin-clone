@@ -46,13 +46,16 @@
 .lado-1 section .da h1{
     color: var(--black-a09);
 }
+.lado-1 section .da span{
+    color: var(--color-text);
+}
 .lado-1 section .da p{
     color: var(--black-a65);
     text-align: center;
     font-weight: normal;
 }
 .lado-1 section div{
-    background-color: #f9fafb;
+    background:var(--white);
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -159,6 +162,7 @@
 .lado-2 section .box p{
     display: flex;
     gap: 5px;
+    color: var(--color-text);
     align-items: center;
     font-size: .9rem;
 }

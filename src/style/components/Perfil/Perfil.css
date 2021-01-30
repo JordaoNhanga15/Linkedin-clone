@@ -73,9 +73,16 @@
 .RigthBar .RigthBar-container h2{
     font-size: 1.1rem;
     font-weight: normal;
+    color: var(--color-text);
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.perfil-2 .Perfil-2-container .perfil-2-a h1{
+    color: var(--color-text);
+}
+.svg-65{
+    fill: var(--black-a65);
 }
 .perfil-2 .Perfil-2-container .perfil-2-a .rigth-contai .rigth{
     display: flex;
@@ -146,7 +153,7 @@
     text-overflow: ellipsis;
     vertical-align: top;
     display: inline-block;
-    color: var(--color-text-low-emphasis);
+    color: var(--black-a65);
 }
 .perfil-2 .Perfil-2-container .perfil-2-a:nth-child(2) .rigth-contai .rigth header .box .textos span{
     font-size: 1rem;

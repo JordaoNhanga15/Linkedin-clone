@@ -24,6 +24,7 @@
     margin-bottom: 2px;
 }
 .Left .left-1 h3{
+    color: var(--color-text);
     font-weight: 100;
 }
 .Left .left-1 ul{

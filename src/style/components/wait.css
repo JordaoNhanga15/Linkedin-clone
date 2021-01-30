@@ -6,4 +6,10 @@
     gap: 10px;
     min-height: 100vh;
 }
+.wait h1{
+    color: var(--color-text);
+}
 
+:root{
+    --color-text:black;
+}

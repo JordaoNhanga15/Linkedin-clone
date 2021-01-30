@@ -39,6 +39,8 @@ function Profile(){
         const InitialColors={
             white:getStyle(ht.html,"--white"),
             blackA75:getStyle(ht.html,"--black-a75"),
+            blackA90:getStyle(ht.html,"--black-a90"),
+            blackA09:getStyle(ht.html,"--black-a09"),
             blackA65:getStyle(ht.html,"--black-a65"),
             blackA45:getStyle(ht.html,"--black-a45"),
             blackA15:getStyle(ht.html,"--black-a15"),
@@ -46,6 +48,7 @@ function Profile(){
             back1:getStyle(ht.html,"--back1"),
             backgroundI:getStyle(ht.html,"--background-i"),
             warmGray20:getStyle(ht.html,"--warm-gray20"),
+            backEvents:getStyle(ht.html,"--back-events"),
             colorTextLowEmphasis:getStyle(ht.html,"--color-text-low-emphasis"),
             colorText:getStyle(ht.html,"--color-text"),
             colorBackgroundFaintActive:getStyle(ht.html,"--color-background-faint-active")
@@ -54,15 +57,18 @@ function Profile(){
             white:"rgb(21, 32, 43)",
             back1:"rgb(21, 32, 43)",
             blackA75:"rgb(136, 153, 166)",
-            blackA65:"#fff",
+            blackA90:"rgb(136, 153, 166)",
+            blackA09:"white",
+            blackA65:"rgb(136, 153, 166)",
             blackA45:"#fff",
-            blackA09:"rgb(136, 153, 166)",
+            // blackA09:"rgb(136, 153, 166)",
+            backEvents:"rgba(0,0,0,.7)",
             blackA15:"rgba(0,0,0,0.15)",
             black:"white",
             warmGray20:"rgba(0,0,0,1)",
             colorTextLowEmphasis:"rgb(136, 153, 166)",
             colorText:"#fff",
-            colorBackgroundFaintActive:"rgb(209, 204, 204)"
+            colorBackgroundFaintActive:"#fff"
         }
         const transformKey = key =>
         "--" + key.replace(/([A-Z])/,"-$1").toLowerCase()
@@ -111,7 +117,7 @@ function Profile(){
                                 <div className="rigth">
                                     <button>Adcionar a secção do perfil <IoMdArrowDropdown size={15} color="white"/></button>
                                     <button>mais...</button>
-                                    <FaPen size={25} color="rgba(0,0,0,0.65)"/>
+                                    <FaPen size={25} color="rgba(0,0,0,0.65)" className="svg-65"/>
                                 </div>
                             </header>
                             <div className="body-perfil">
@@ -130,7 +136,7 @@ function Profile(){
                                 </section>
                             </div>
                         </section>
-                        <div className="Pen"><FaPen size={18} color=" #378fe9"/></div>
+                        <div className="Pen"><FaPen size={18} color=" #378fe9" /></div>
                         <div className="Dark">
                         <div className="ls toggle">
                             <div className="la">
@@ -149,7 +155,7 @@ function Profile(){
                         <header>
                                     <h2>Sobre</h2>
                                     <div className="rigth">
-                                        <FaPen size={25} color="rgba(0,0,0,0.65)"/>
+                                        <FaPen size={25} color="rgba(0,0,0,0.65)" className="svg-65"/>
                                     </div>
                         </header>
                         <div className="body-perfil">
@@ -181,17 +187,17 @@ function Profile(){
                         <header>
                                     <h2>Em destaque</h2>
                                     <div className="rigth">
-                                        <span style={{color:'rgba(0,0,0,.45)',fontWeight:'bold'}}>Visualizar todos</span>
-                                        <AiOutlineLeft size={25} color="rgba(0,0,0,0.65"/>
-                                        <AiOutlineRight size={25} color="rgba(0,0,0,0.65"/>
-                                        <FiPlus size={25} color="rgba(0,0,0,0.65)" />
-                                        <FaPen size={25} color="rgba(0,0,0,0.65)"/>
+                                        <span style={{fontWeight:'bold'}}>Visualizar todos</span>
+                                        <AiOutlineLeft size={25} color="rgba(0,0,0,0.65" className="svg-65"/>
+                                        <AiOutlineRight size={25} color="rgba(0,0,0,0.65" className="svg-65"/>
+                                        <FiPlus size={25} color="rgba(0,0,0,0.65)" className="svg-65"/>
+                                        <FaPen size={25} color="rgba(0,0,0,0.65)" className="svg-65"/>
                                     </div>
                         </header>
                         <div className="body-perfil">
                             <div className="grids">
                                 <article>
-                                    <span className="span" style={{color:'rgba(0,0,0,.95)',fontWeight:'bold'}}>Fui selecionado para lecionar aulas de programacao na minha turma, vou apresentar...</span>
+                                    <span className="span" style={{fontWeight:'bold'}}>Fui selecionado para lecionar aulas de programacao na minha turma, vou apresentar...</span>
                                     <img src={taag} alt="" width="100%" className="gif"/>
                                     <footer>
                                     <div className="loca">
@@ -204,15 +210,15 @@ function Profile(){
                                         <div className="emo" style={{background:'red'}}>
                                             <AiTwotoneHeart size={10} color="white"/>
                                         </div>
-                                        <span>222</span>
+                                        <span className="svg-65">222</span>
                                         <div className="po"></div>
-                                        <span>80 comentarios</span>
+                                        <span className="svg-65">80 comentarios</span>
                                     </div>
                                     </footer>
                                 </article>
 
                                 <article>
-                                    <span className="span" style={{color:'rgba(0,0,0,.95)',fontWeight:'bold'}}>Saudacoes a todos para comecar o ano desenvolvi o clone do twitter...</span>
+                                    <span className="span" style={{fontWeight:'bold'}}>Saudacoes a todos para comecar o ano desenvolvi o clone do twitter...</span>
                                     <img src={twitter} alt="" width="100%" className="gif"/>
                                     <footer>
                                     <div className="loca">
@@ -233,7 +239,7 @@ function Profile(){
                                 </article>
 
                                 <article>
-                                    <span className="span" style={{color:'rgba(0,0,0,.95)',fontWeight:'bold'}}>Fui selecionado para lecionar aulas de programacao na minha turma, vou apresentar...</span>
+                                    <span className="span" style={{fontWeight:'bold'}}>Fui selecionado para lecionar aulas de programacao na minha turma, vou apresentar...</span>
                                     <img src={fb} alt="" width="100%" className="gif"/>
                                     <footer>
                                     <div className="loca">
@@ -254,7 +260,7 @@ function Profile(){
                                 </article>
 
                                 <article>
-                                    <span className="span" style={{color:'rgba(0,0,0,.95)',fontWeight:'bold'}}>Fui selecionado para lecionar aulas de programacao na minha turma, vou apresentar...</span>
+                                    <span className="span" style={{fontWeight:'bold'}}>Fui selecionado para lecionar aulas de programacao na minha turma, vou apresentar...</span>
                                     <img src={fb} alt="" width="100%" className="gif"/>
                                     <footer>
                                     <div className="loca">
@@ -283,15 +289,15 @@ function Profile(){
                         <main className="perfil-2-a">
                             <div className="perfil-line">
                                 <h4>Editar Perfil e Publico URL</h4>
-                                <HiQuestionMarkCircle size={20} color="rgba(0,0,0,0.65)"/>
+                                <HiQuestionMarkCircle size={20} color="rgba(0,0,0,0.65)" className="svg-65"/>
                             </div>
                             <div className="perfil-line">
                                 <h4>Adciona Perfil em outro idioma</h4>
-                                <HiQuestionMarkCircle size={20} color="rgba(0,0,0,0.65)"/>
+                                <HiQuestionMarkCircle size={20} color="rgba(0,0,0,0.65)" className="svg-65"/>
                             </div>
                         </main>
                         <article className="perfil-2-a">
-                            <h1>Adicione ao seu feed <span><BsFillInfoSquareFill size={15}/></span></h1>
+                            <h1>Adicione ao seu feed <span><BsFillInfoSquareFill size={15} className="svg-65"/></span></h1>
                             <div className="rigth-contai">
                                 <main className="rigth">
                                     <header className="pub-header">
