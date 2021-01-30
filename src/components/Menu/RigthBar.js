@@ -12,7 +12,7 @@ function RigthBar(){
         <>
             <main className="RigthBar">
                 <article className="RigthBar-container">
-                    <h1>Adicione ao seu feed <span><BsFillInfoSquareFill size={15}/></span></h1>
+                    <h1>Adicione ao seu feed <span><BsFillInfoSquareFill size={15} className="svg-65"/></span></h1>
                     <div className="rigth-contai">
                         <main className="rigth">
                             <header className="pub-header">
@@ -59,7 +59,7 @@ function RigthBar(){
                 </article>
 
                 <article className="RigthBar-container">
-                    <h1>os cursos mais visualizados hoje <span><BsFillInfoSquareFill size={15}/></span></h1>
+                    <h1>os cursos mais visualizados hoje <span><BsFillInfoSquareFill size={15} className="svg-65"/></span></h1>
                     <div className="rigth-contai">
                         <main className="rigth">
                             <header className="pub-header">

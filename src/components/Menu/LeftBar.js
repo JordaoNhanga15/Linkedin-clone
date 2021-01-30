@@ -49,8 +49,8 @@ function LeftBar(){
                     </main>
                 </div>
                     <div className="leftbar-conteudo">
-                        <span className="span">Recentes</span>
                         <article className="leftd">
+                            <h5>Recentes</h5>
                             <span className=""><IoIosPeople size={15} color=""/> Angola Parcerias</span>
                             <span className=""><IoIosPeople size={15} color=""/> Elite african</span>
                             <span className=""><IoIosPeople size={15} color=""/> Emprego Angola</span>

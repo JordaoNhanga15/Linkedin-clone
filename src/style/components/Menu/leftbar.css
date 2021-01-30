@@ -64,7 +64,7 @@
     font-size: .8rem;
     padding: 0px 15px;
     text-align: center;
-    color: var(--color-text-low-emphasis);
+    color: var(--black-a65);
 }
 .LeftBar .left-container .leftbar-conteudo header small{
     font-size: 1.2rem;
@@ -96,12 +96,13 @@
     display: flex;
     font-weight: 600;
     color:var(--black-a06);
+    color: var(--black-a65);
     align-items: center;
 }
 .LeftBar .left-container .leftbar-conteudo .quem_ .itens svg{
     margin-right: 10px;
-    fill:var(--black-a06);
-    color: var(--black-a06);
+    fill:var(--black-a65);
+    color: var(--black-a65);
 }
 .LeftBar .left-container .leftbar-conteudo .quem_ .box{
     display: flex;
@@ -111,6 +112,7 @@
 }
 .LeftBar .left-container .leftbar-conteudo .quem_ .box span{
     color: var(--color-text-low-emphasis);
+    color: var(--black-a65);
     font-size: .8rem;
     font-weight: 600;
 }
@@ -140,6 +142,7 @@
     line-height: 1.33333;
     font-weight: 600;
     color: var(--black-a06);
+    color: var(--black-a65);
     vertical-align: text-bottom;
 }
 .LeftBar .left-container .leftbar-conteudo .leftd h5{
@@ -152,6 +155,7 @@
     --black: #000;
     --back1:white;
     --black-a06:rgba(0,0,0,0.6);
+    --color-Span:rgba(0,0,0,0.15);
     --black-a09:rgba(0,0,0,0.9);
     --black-a90: rgba(0,0,0,0.9);
     --black-a75: rgba(0,0,0,0.75);

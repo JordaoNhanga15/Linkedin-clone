@@ -53,7 +53,7 @@ function MiddleBar(){
             <main className="MiddleBar">
                 <article className="box">
                     <button>
-                        <IoCreateOutline size={28} color=""/>
+                        <IoCreateOutline size={28} color="" className="svg-65"/>
                         <span>
                         Começar publicar
                         </span>
@@ -96,7 +96,7 @@ function MiddleBar(){
                                     </div>
                                 </main>
                             </div>
-                            <IoEllipsisHorizontal size={20} color="#000"/>
+                            <IoEllipsisHorizontal size={20} color="#000" className="svg-65"/>
                         </header>
                         <div className="pub-body">
                             <p>Hey Folks!
@@ -147,11 +147,11 @@ Faz um tempo que postei na rede sobre uma série de postos sobre ReactJs, então
                                     <p>Senior Software Developer | ITGest </p>
                                     <div className="locate">
                                         <small>6 min .</small>
-                                        <TiWorldOutline size={15} color="#000"/>
+                                        <TiWorldOutline size={15} color="#000" />
                                     </div>
                                 </main>
                             </div>
-                            <IoEllipsisHorizontal size={20} color="#000"/>
+                            <IoEllipsisHorizontal size={20} color="#000" className="svg-65"/>
                         </header>
                         <div className="pub-body">
                             <p>Mind blowing programmers! 🤯.</p>
@@ -206,7 +206,7 @@ Faz um tempo que postei na rede sobre uma série de postos sobre ReactJs, então
                                     </div>
                                 </main>
                             </div>
-                            <IoEllipsisHorizontal size={20} color="#000"/>
+                            <IoEllipsisHorizontal size={20} color="#000" className="svg-65"/>
                         </header>
                         <div className="pub-body">
                             <p>Hoje decidi pesquisar um pouco sobre APIs e fiz uma pequena lista que pretendo testar nos meus novos projetos.

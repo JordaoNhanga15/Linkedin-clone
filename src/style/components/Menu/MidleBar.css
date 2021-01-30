@@ -7,7 +7,7 @@
     gap: 5px;
     width: 100%;
     margin: 0 0 8px;
-    background: var(--back1,--back1);
+    background: var(--back1);
     border-radius: 10px;
     color: var(--warm-gray-60,#84878a);
     display: flex;
@@ -34,13 +34,14 @@
 }
 .MiddleBar .box button span{
     color:rgba(0,0,0,0.50) ;
+    color: var(--black-a65);
     font-weight: 400;
     height: 100%;
     display: flex;
     align-items: flex-end;
 }
 .MiddleBar .box button svg{
-    fill: var(--black-a90);
+    fill: var(--black-a65);
 }
 .MiddleBar .box .icons{
     display: flex;
@@ -80,12 +81,13 @@
 .MiddleBar .hr-container .hr{
     width: 100%;
     height: 1px;
-    background:rgba(0,0,0,0.18);
+    background:var(--black-a65);
 }
 .MiddleBar .hr-container span{
     flex-direction: row;
     width: 40%;
     gap: 3px;
+    color: var(--black-a65);
     display: flex;
     align-items: center;
     font-size: .8rem;
@@ -152,6 +154,7 @@
     vertical-align: top;
     display: inline-block;
     color: var(--color-text-low-emphasis);
+    color: var(--black-a65);
 }
 .MiddleBar .pub-container .pub .pub-header .box .textos .locate{
     display: flex;
@@ -170,6 +173,7 @@
     text-align: justify;
     width: 100%;
     font-size: .9rem;
+    color: var(--black-a65);
 }
 .MiddleBar .pub-container .pub .pub-body img{
     width: 100%;
@@ -207,6 +211,7 @@
 }
 .MiddleBar .pub-container .pub .reactions-pub span{
     font-size: .7rem;
+    color: var(--color-text);
 }
 .MiddleBar .pub-container .pub .reactions-pub .react:nth-child(1){
     animation: ip .6s ease-in-out 2s backwards;
@@ -242,7 +247,7 @@
 .MiddleBar .pub-container .pub footer div{
     padding: 10px 8px;
     border-radius: 10px;
-    color: var(--color-text-low-emphasis);
+    color: var(--black-a65);
     display: flex;
     cursor: pointer;
     transition: all .4s ease-in-out;

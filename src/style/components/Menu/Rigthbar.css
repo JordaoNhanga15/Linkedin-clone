@@ -18,6 +18,7 @@
     font-weight: normal;
     display: flex;
     align-items: center;
+    color: var(--black-a65);
     justify-content: space-between;
 }
 .live{
@@ -101,6 +102,7 @@
     vertical-align: top;
     display: inline-block;
     color: var(--color-text-low-emphasis);
+    color: var(--black-a65);
 }
 .RigthBar .RigthBar-container:nth-child(2) .rigth-contai .rigth header .box .textos span{
     font-size: 1rem;
